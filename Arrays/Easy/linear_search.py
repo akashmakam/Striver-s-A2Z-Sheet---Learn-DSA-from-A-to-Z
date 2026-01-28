@@ -1,11 +1,12 @@
-# Linear Search
-# Time complexity: O(n)
-# Space complexity: O(1)
+# Problem: Linear Search
+# Description: Given an array of numbers and a target, check whether the target number is present in the array.
 
-# Approach 1: 
-# 1. Iterate through the array
-#    a. return 1 if the target is found. 
-# 2. After searching the array, if the target is not found, return -1.
+'''
+Approach: 
+Iterate through the array. If a match is found, return 1. Otherwise, after searching through the array, if the element is not found, return -1.
+Time complexity: O(n)
+Space complexity: O(1)
+'''
 class Solution:
     def linearSearch(self, nums, target):
         for num in nums:
